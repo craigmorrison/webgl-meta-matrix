@@ -2,7 +2,7 @@ import {
   WebGLRenderer,
   Color,
   Scene,
-  PerspectiveCamera,
+  PerspectiveCamera
 } from './three-exports';
 import { Text } from 'troika-three-text';
 
