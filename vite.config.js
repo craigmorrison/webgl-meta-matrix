@@ -6,10 +6,10 @@ const config = {
     minify: false,
     rollupOptions: {
       output: {
-        format: 'umd',
-      },
-    },
-  },
+        format: 'umd'
+      }
+    }
+  }
 };
 
 export default config;
