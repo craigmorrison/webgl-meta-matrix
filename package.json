@@ -9,11 +9,11 @@
     "format": "prettier --write ."
   },
   "dependencies": {
-    "three": "^0.132.2"
+    "three": "^0.139.2"
   },
   "devDependencies": {
     "prettier": "^2.4.0",
     "troika-three-text": "^0.42.0",
-    "vite": "^2.5.4"
+    "vite": "^2.9.1"
   }
 }
