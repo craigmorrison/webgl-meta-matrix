@@ -14,6 +14,6 @@
   "devDependencies": {
     "prettier": "^3.5.3",
     "troika-three-text": "^0.52.3",
-    "vite": "^6.2.4"
+    "vite": "^6.2.6"
   }
 }
