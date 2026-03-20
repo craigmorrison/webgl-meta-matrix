@@ -8,7 +8,6 @@ scene.background = new Color(0x001900);
 // Set up camera
 const camera = new PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
 camera.position.y = 0;
-camera.position.y = 0;
 camera.position.z = 20;
 
 // Set up renderer
@@ -33,7 +32,7 @@ function renderScene(sourceCodeText) {
   }
 
   // Line properties
-  function setRenderLineProps(renderLine, index) {
+  function setRenderLineProps(renderLine) {
     renderLine.fontSize = 1;
     renderLine.fillOpacity = getRandomNumberInRange(0.3, 1);
     renderLine.color = 0x00ff00;
