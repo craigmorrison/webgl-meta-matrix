@@ -2,6 +2,9 @@
   "name": "webgl-meta-matrix",
   "version": "1.0.0",
   "private": "true",
+  "engines": {
+    "node": ">=24"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -9,11 +12,11 @@
     "format": "prettier --write ."
   },
   "dependencies": {
-    "three": "^0.174.0"
+    "three": "^0.174.0",
+    "troika-three-text": "^0.52.4"
   },
   "devDependencies": {
-    "prettier": "^3.5.3",
-    "troika-three-text": "^0.52.3",
-    "vite": "^6.2.6"
+    "prettier": "^3.8.1",
+    "vite": "^8.0.1"
   }
 }
