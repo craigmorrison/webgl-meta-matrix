@@ -1,22 +1,12 @@
-import {
-  WebGLRenderer,
-  Color,
-  Scene,
-  PerspectiveCamera
-} from './three-exports';
-import { Text } from 'troika-three-text';
+import { WebGLRenderer, Color, Scene, PerspectiveCamera } from "three";
+import { Text } from "troika-three-text";
 
 // Set up scene
 const scene = new Scene();
 scene.background = new Color(0x001900);
 
 // Set up camera
-const camera = new PerspectiveCamera(
-  75,
-  window.innerWidth / window.innerHeight,
-  0.1,
-  1000
-);
+const camera = new PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
 camera.position.y = 0;
 camera.position.y = 0;
 camera.position.z = 20;
@@ -32,9 +22,9 @@ function renderScene(sourceCodeText) {
 
   const verticalLines = lines.slice(0, 400).map((line) => {
     return line
-      .split('')
-      .map((char) => char + '\n')
-      .join('');
+      .split("")
+      .map((char) => char + "\n")
+      .join("");
   });
 
   // Get random number in range
@@ -83,7 +73,7 @@ function renderScene(sourceCodeText) {
 }
 
 // Get file and render
-const scriptUrl = document.querySelector('script').src;
+const scriptUrl = document.querySelector("script").src;
 async function getSourceCodeText() {
   const response = await fetch(scriptUrl);
   return response.text();

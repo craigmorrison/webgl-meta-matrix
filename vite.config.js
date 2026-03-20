@@ -1,15 +1,12 @@
-/**
- * @type {import('vite').UserConfig}
- */
-const config = {
+import { defineConfig } from "vite";
+
+export default defineConfig({
   build: {
     minify: false,
     rollupOptions: {
       output: {
-        format: 'umd'
-      }
-    }
-  }
-};
-
-export default config;
+        format: "umd",
+      },
+    },
+  },
+});
