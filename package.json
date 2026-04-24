@@ -11,11 +11,11 @@
     "lint": "vp lint"
   },
   "dependencies": {
-    "three": "^0.183.0",
+    "three": "^0.184.0",
     "troika-three-text": "^0.52.4"
   },
   "devDependencies": {
-    "vite-plus": "^0.1.17"
+    "vite-plus": "^0.1.19"
   },
   "engines": {
     "node": ">=24"
