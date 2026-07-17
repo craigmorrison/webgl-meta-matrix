@@ -15,7 +15,7 @@
     "troika-three-text": "^0.52.4"
   },
   "devDependencies": {
-    "vite-plus": "^0.2.1"
+    "vite-plus": "^0.2.4"
   },
   "engines": {
     "node": ">=24"
