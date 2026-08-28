@@ -15,10 +15,10 @@
     "troika-three-text": "^0.52.4"
   },
   "devDependencies": {
-    "vite-plus": "^0.2.1"
+    "vite-plus": "^0.3.0"
   },
   "engines": {
     "node": ">=24"
   },
-  "packageManager": "npm@11.19.0"
+  "packageManager": "npm@11.19.1"
 }
