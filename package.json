@@ -11,8 +11,8 @@
     "lint": "vp lint"
   },
   "dependencies": {
-    "three": "^0.186.1",
-    "troika-three-text": "^0.52.5"
+    "three": "^0.187.0",
+    "troika-three-text": "^0.53.0"
   },
   "devDependencies": {
     "vite-plus": "^1.1.0"
